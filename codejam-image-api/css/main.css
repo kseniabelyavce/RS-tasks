@@ -1,0 +1,148 @@
+#canvas {
+  width: 512px;
+  height: 512px;
+  margin: 0 auto;
+  margin-right: 4%;
+  border: 1px solid #000000;
+
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-pixelated;
+  image-rendering: pixelated;
+}
+
+.form-canvas {
+  margin: 0 auto;
+}
+.form__text {
+ display: inline-block;
+}
+
+.form__btn {
+  display: inline-block;
+}
+
+.header {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  margin-bottom: 60px;
+}
+
+.button {
+  padding: 0;
+  background-color: white;
+  border: none;
+}
+
+.title {
+  margin-left: 24px;
+  font-size: 20px;
+  font-family: "Roboto", "sans-serif";
+}
+
+.button__line-menu {
+  margin-left: 8px;
+}
+
+.button__dot-menu {
+  margin-right: 8px;
+  margin-left: auto;
+  padding: 4px 8px;
+}
+
+.tool-wrapper {
+  /* margin-top: 25%; */
+  width: 228px;
+  margin-left: 30px;
+  margin-bottom: 9vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+input {
+  display: none;
+}
+
+/* input[type="radio"]:checked + label::after {
+  background-color: yellow;
+} */
+
+.tools {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tools__item_opaque {  
+  opacity: 0.2;
+}
+
+.tools__item {
+  font: normal 16px 'Roboto';
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.tools__icon {
+  margin-right: 35px;
+}
+
+.tools__btn:checked + .tools__item {
+  color: blue;
+  background-color: rgba(0, 0, 0, 0.1)
+}
+
+.tools__item svg {
+  fill: black;
+}
+
+.tools__btn:checked + .tools__item svg {
+  fill: blue;
+}
+
+h2 {
+  font: normal 20px 'Roboto';
+}
+
+.resolution-box__item {
+  font: normal 18px 'Roboto';
+}
+
+.resolution {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.resolution-box {
+  visibility: hidden;
+  flex-direction: column;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+
+.dot_color_current {
+  background-color:#2a7ffe;
+}
+
+.dot_color_prev {
+  background-color: #1d81a5;
+}
+
+.dot_color_change {
+  background-color: #ffffff;
+}
+
+
