@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-transition="zoom">
+					<h2>Top 10 essential UNIX  commands</h2>
+				</section>
+				<section  data-background-image="./assets/guiVScli.jpg"  data-background-size="50%">	
+				</section>
+				<section data-background-transition="zoom">
+					<p>The <b>shell</b> is program that takes commands from the keyboard and gives them to the operating system</p>
+					<section data-background-image="./assets/snail.png" data-background-size="30%"></section>
+				</section>
+				<section data-background-transition="zoom">
+					<p>A <b>terminal</b> is program that opens a window and lets you interact with the shell</p>
+					<section data-background-image="./assets/shell.png" data-background-size="30%"></section>
+				</section>
+				<section>
+				<img style="border: none" src="./assets/commandline.png">
+				</section>
+				<section data-background-image="./assets/pwd.jpg" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/finder.jpg" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/ls.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/cd.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/cdback.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/error.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/mkdir.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/touch.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/open.png" data-background-size="60%">
+					<img style="border: none; margin-left: 250px;
+					margin-top: 200px" src="./assets/openText.png">
+				</section>
+				<section data-background-image="./assets/rm.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/mvove.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/rename.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/cp.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/copyR.png" data-background-size="60%">
+				</section>
+				<section data-background-image="./assets/grep.png" data-background-size="60%">
+				</section>
+				<section data-background-transition="zoom">
+						<h2>Thank you!</h2>
+					</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
