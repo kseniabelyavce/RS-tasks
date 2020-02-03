@@ -1,4 +1,2 @@
-import _ from 'lodash';
+/* eslint-disable linebreak-style */
 import './style.css';
-
-
