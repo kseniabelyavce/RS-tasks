@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../src/Montserrat-Bold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: #d6cdc2;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+select:active {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header {
+  padding: 40px 90px 57px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img .icon {
+  background: url('./Vector.png');
+}
+
+.control-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.temp-btns {
+  display: flex;
+  margin-left: 10px;
+}
+
+.temp-btns .btn_left {
+  border-radius: 5px 0 0 5px;
+}
+
+.temp-btns .btn_right {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn {
+  background-color: rgba(174, 181, 185, 0.5);
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn_small {
+  width: 44px;
+  height: 44px;
+}
+
+.btn_wide {
+  width: 71px;
+  height: 44px;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+.btn_wider {
+  width: 101px;
+  height: 39px;
+  border-radius: 0 5px 5px 0;
+}
+
+.search {
+  display: flex;
+  padding-top: 5px;
+}
+
+.search input {
+  height: 39px;
+  width: 274px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(76, 82, 85, 0.4);
+}
+
+input[type='search'] {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  padding-left: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.search input:focus,
+.search input:hover {
+  outline: 0;
+  border-color: rgb(76, 82, 85);
+  box-shadow: 0 0 3px rgb(76, 82, 85);
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+input[type='search']::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.search button:active,
+.search button:hover {
+  outline: 0;
+  border-color: rgb(76, 82, 85);
+  box-shadow: 0 0 3px rgb(76, 82, 85);
+}
+
+.btn_small:hover {
+  outline: 0;
+  border-color: rgb(76, 82, 85);
+  box-shadow: 0 0 3px rgb(76, 82, 85);
+}
+
+.btn_wide:hover {
+  outline: 0;
+  border-color: rgb(76, 82, 85);
+  box-shadow: 0 0 3px rgb(76, 82, 85);
+}
+
+/* MAIN */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #f6f4f0;
+}
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.weather-container {
+  padding: 0 90px 0 90px;
+}
+.location-timezone {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-discription {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.temperature-degree {
+  font-size: 250px;
+}
+.weather-param {
+  align-self: center;
+  margin-left: 92px;
+}
+
+.degree-btn_active {
+  background-color: rgba(174, 181, 185, 0.9);
+}
+
+.map-location {
+  position: relative;
+  left: 350px
+}
+
+.coordinates {
+  margin-top: 10px;
+}
+
+#map {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  opacity: 0.9;
+  border-radius: 5px;
+  border-color: rgb(76, 82, 85);
+  box-shadow: 0 0 3px rgb(76, 82, 85);
+}
